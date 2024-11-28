@@ -1,5 +1,5 @@
 ..\..\output\main.o: ..\..\Users\main.c
-..\..\output\main.o: ..\..\Driver\SYSTEM/sys/sys.h
+..\..\output\main.o: ..\..\Driver\SYSTEM\sys\sys.h
 ..\..\output\main.o: ..\..\Driver\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
 ..\..\output\main.o: ..\..\Driver\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h
 ..\..\output\main.o: ..\..\Driver\CMSIS\Include\core_cm3.h
@@ -55,6 +55,15 @@
 ..\..\output\main.o: ..\..\Driver\STM32F1XX_HAL_Driver\Inc\stm32f1xx_hal_pcd_ex.h
 ..\..\output\main.o: ..\..\Driver\STM32F1XX_HAL_Driver\Inc\stm32f1xx_hal_hcd.h
 ..\..\output\main.o: ..\..\Driver\STM32F1XX_HAL_Driver\Inc\stm32f1xx_hal_mmc.h
-..\..\output\main.o: ..\..\Driver\SYSTEM/usart/usart.h
+..\..\output\main.o: ..\..\Driver\SYSTEM\usart\usart.h
 ..\..\output\main.o: E:\keil5 MDK\ARM\ARMCC\Bin\..\include\stdio.h
-..\..\output\main.o: ..\..\Driver\SYSTEM/delay/delay.h
+..\..\output\main.o: ..\..\Driver\SYSTEM\delay\delay.h
+..\..\output\main.o: ..\..\Driver\FreeRTOS\include\FreeRTOS.h
+..\..\output\main.o: ..\..\Users\FreeRTOSConfig.h
+..\..\output\main.o: ..\..\Driver\FreeRTOS\include\projdefs.h
+..\..\output\main.o: ..\..\Driver\FreeRTOS\include\portable.h
+..\..\output\main.o: ..\..\Driver\FreeRTOS\include\deprecated_definitions.h
+..\..\output\main.o: ..\..\Driver\FreeRTOS\port\RVDS\ARM_CM3\portmacro.h
+..\..\output\main.o: ..\..\Driver\FreeRTOS\include\mpu_wrappers.h
+..\..\output\main.o: ..\..\Driver\FreeRTOS\include\task.h
+..\..\output\main.o: ..\..\Driver\FreeRTOS\include\list.h
